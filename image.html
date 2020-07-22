@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style type="text/css">
+			#n{
+				float: right;
+				padding: 10px;
+			}
+			.a{
+				padding: 15px;
+				font-size: 150%;
+				background-color: #F9F4BD;
+			}
+			a{
+				text-decoration: none;
+			}
+        	.con{
+        		position: absolute;
+        		top:50%;
+        		left: 50%;
+        		transform: translate(-50%,-50%);
+        		box-shadow: none;
+        	}
+        	.f{
+        		border-width: 1px;
+        		border-radius: 24px;
+        		height: 44px;
+        		width: 582px;
+        		margin: 20px;
+        		align-content: center;
+        	}
+        	.s{
+        		padding: 10px;
+        		position: relative;
+        		display: flex;
+        		left:50%;
+        		transform: translateX(-50%);
+        		background-color: #3688EB;
+				color: white;
+				border-radius: 3px;
+				border-color: white;
+        	}			        	
+        </style>
+    </head>
+    <body>
+    	<nav id="n">
+			<a href="index.html" class="a">Google Search</a>
+		</nav>
+        <form class="con" action="https://www.google.com/search">
+            <input type="text" name="q" class="f">
+            <input type="submit" value="Google Image search" class="s">
+            <input type="hidden" name="tbm" value="isch">
+            <input type="hidden" name="sclient" value="img">
+        </form>
+    </body>
+</html>

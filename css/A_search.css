@@ -1,0 +1,47 @@
+#n{
+	float: right;
+	padding: 10px;
+}
+.a{
+	padding: 15px;
+	font-size: 150%;
+	background-color: #F9F4BD;
+}
+a{
+	text-decoration: none;
+}
+#form{
+	padding-left: 40px;
+}
+h3{
+	padding-left: 40px;
+	color: #BD2A28;
+	font-family: arial;
+	font-size: 150%;
+	font-weight: lighter;
+} 
+.back{
+	display: inline-block;
+	position: absolute;
+	left:15%;
+	width: 80%;
+}
+.i{
+	position: relative;
+	height: 25px;
+	border-radius: 3px;
+	border-width: 1px;
+	width: 60%;
+}
+.front{
+	padding-top: 30px;
+}
+.final{
+	background-color: #3688EB;
+	color: white;
+	border-radius: 3px;
+	padding: 10px;
+	border-color: white;
+	float: right;
+	margin-right: 37.5%;
+}

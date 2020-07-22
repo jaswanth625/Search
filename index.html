@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style type="text/css">
+        	#n{
+        		float: right;
+        		padding: 10px;
+        	}
+        	.a{
+        		padding: 15px;
+        		font-size: 150%;
+        		background-color: #F9F4BD;
+        	}
+        	.con{
+        		position: absolute;
+        		top:50%;
+        		left: 50%;
+        		transform: translate(-50%,-50%);
+        		box-shadow: none;
+        	}
+        	.f{
+        		border-width: 1px;
+        		border-radius: 24px;
+        		height: 44px;
+        		width: 582px;
+        		margin: 20px;
+        		align-content: center;
+        	}
+        	.s{
+        		padding: 10px;
+        		position: relative;
+        		display: flex;
+        		left:30%;
+        		transform: translateX(-50%);
+        		background-color: #3688EB;
+				color: white;
+				border-radius: 3px;
+				border-color: white;
+        	}
+        	.b{
+        		display: flex;
+        		position: relative;
+        		padding: 10px;
+        		left: 50%;
+        		transform: translateY(-100%);
+        		font-family: sans-serif;
+        		background-color: #3688EB;
+				color: white;
+				border-radius: 3px;
+				border-color: white;
+        	}
+        	a{
+        		text-decoration:none;
+        	}
+        </style>
+    </head>
+    <body>
+    	<div id="dn">
+    		<nav id="n">
+    			<a href="image.html" class="a">Image Search</a>
+    			<a href="A_search.html" class="a">Advanced Search</a>
+    		</nav>
+    	</div>
+    	<div class="con">
+	        <form action="https://google.com/search">
+	            <input type="text" name="q" class="f">
+	            <span>
+	            	<input type="submit" value="Google Search" class="s">
+	            	<button class="b"><a href="https://www.google.com/doodles/">I'm Feeling Lucky</a></button>
+	            </span>
+	        </form>   		
+    	</div>
+    </body>
+</html>
